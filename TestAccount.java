@@ -13,7 +13,7 @@ public class TestAccount {
         acc1.transferTo(acc2, 1000);
 
         // print final balances after transfer
-        System.out.println("Initial Balance for Account 1: " + acc1.getBalance());
-        System.out.println("Initial Balance for Account 2: " + acc2.getBalance());
+        System.out.println("Final Balance for Account 1: " + acc1.getBalance());
+        System.out.println("Final Balance for Account 2: " + acc2.getBalance());
     }
 }

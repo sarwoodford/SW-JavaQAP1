@@ -1,15 +1,17 @@
 public class Date {
     
+    //assign attributes
     private int day;
     private int month;
     private int year;
 
+    // constructor
     public Date(int day, int month, int year){
         this.day = day;
         this.month = month;
         this.year = year;
     }
-
+    //getters
     public int getDay(){
         return day;
     }
@@ -21,7 +23,7 @@ public class Date {
     public int getYear(){
         return year;
     }   
-
+    //setters
     public void setDay(int day){
         this.day = day;
     }
@@ -39,7 +41,7 @@ public class Date {
         this.month = month;
         this.year = year;
     }
-
+    // display date object
     public String toString(){
         return String.format("%02d/%02d/%04d", day, month, year);
     }
